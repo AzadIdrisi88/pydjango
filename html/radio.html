@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <center>
     <form>
         <fieldset>
             A<input type="number" value="{{a}}" name="a">
@@ -21,11 +22,21 @@
 
 
             </div>
+            <div>
+                <input type="radio" id="Mul" name="cmd" value="Mul">
+                <lable for="Mul">Mul</lable>
+            </div>
+            <div>
+                <input type="radio" id="Div" name="cmd" value="Div">
+                <lable for="Div">Div</lable>
+            </div>
             <br>
             <input type="submit">
             <h2> result {{result}} </h2>
 
         </fieldset>
+    
     </form>
+</center>
 </body>
 </html>
