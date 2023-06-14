@@ -8,4 +8,6 @@ urlpatterns = [
     path("home/", views.home),
     path("radio/",views.radio),
     path("slct/",views.slct),
+    path("chck/",views.chck),
+    path("marksheet/",views.marksheet),
 ]
