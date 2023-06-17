@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chck</title>
+</head>
+<body>
+    <center>
+    <fieldset>
+       
+    <form>
+        A<input type="number" name="a" value="{{a}}">
+        <br>
+        B<input type="number" name="b" value="{{b}}">
+        <br>
+        <center> <legend>please choose an option</legend> </center>
+        <div>
+            <input type="checkbox" name="cmd"value="Add" {{value}}>
+            <label for="cmd">Add/Sub</label>
+        </div>
+        <div>
+            <input type="checkbox" name="cmd"value="Mul"{{value}}> 
+            <label for="cmd">Mul/Div</label>
+         </div>
+         <input type="submit">
+         <h2>Result  {{result}}</h2>
+
+    </form>
+    </fieldset>
+    </center>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form>
+        <fieldset>
+            A<input type="number" value="{{a}}" name="a">
+            B<input type="number" value="{{b}}" name="b">
+            <br>
+            <div>
+                <input type="radio" id="Add" name="cmd" value="Add" >
+                <lable for="Add">Add</lable>
+            </div>
+            <div>
+                <input type="radio" id="Sub" name="cmd" value="Sub" >
+                <lable for="Sub">Sub</lable>
+
+
+            </div>
+            <div>
+                <input type="radio" id="Mul" name="cmd" value="Mul">
+                <lable for="Mul">Mul</lable>
+            </div>
+            <div>
+                <input type="radio" id="Div" name="cmd" value="Div">
+                <lable for="Div">Div</lable>
+            </div>
+            <br>
+            <input type="submit">
+            <h2> result {{result}} </h2>
+
+        </fieldset>
+    
+    </form>
+</center>
+</body>
+</html>

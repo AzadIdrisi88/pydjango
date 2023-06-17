@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mark</title>
+</head>
+<style>
+    h1{ color: darkorange;}
+    h2{color: brown;}
+    body{background-color: cornsilk;}
+    form{color: black;}
+
+</style>
+<body>
+    <fieldset><center> <h1>---Marksheet---</h1></center>
+        <center>
+            <form>
+                  Physics<input tpye="number" name="a" value="{{a}}">
+            <br><br>
+                Chemistry<input type="number" name="b" value="{{b}}">
+            <br><br>
+                    Maths<input type="number" name="c" value="{{c}}">
+            <br><br>
+                <input type="submit">
+                <h2> Result-- {{r}}</h2>
+                <h2> Division-- {{d}}</h2>
+                <h2>Total-- {{t}}</h2>
+                <h2>Percent-- {{percent}}</h2>
+               
+
+            </form>
+        </center>
+    </fieldset>
+    
+</body>
+</html>
