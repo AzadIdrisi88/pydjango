@@ -6,10 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
+<style>
+    body{background-color: azure;
+    }
+    h1{ border: 4px black solid;
+        background-color: aqua;
+        font-size: 45px;
+        font-style: italic;
+
+    }
+    h2{
+        color: tomato;
+    }
+    
+</style>
 
 <body>
     <center>
-    <center><h1>Calculator</h1></center>
+    <center><h1>Calculator</h1></center><br>
     <form>
         A<input type="number" value="{{a}}" name="a">
         <br><br>
@@ -21,6 +35,7 @@
         <input type="submit" name="cmd" value="Mul">
         <input type="submit" name="cmd" value="Div">
         <input type="submit" name="cmd" value="perc">
+        <input type="submit" name="cmd" value="pow">
         <br>
         
         <h2>Result {{result}}</h2>

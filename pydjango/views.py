@@ -26,6 +26,8 @@ def home(request):
             result = n1//n2
         if cmd=="perc":
             result=n1-(n1*n2/100)
+        if cmd=="pow":
+            result=n1**n2
 
     return render(request, "home.html", {"a": n1, "b": n2, "result": result})
 
